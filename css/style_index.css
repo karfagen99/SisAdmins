@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:#D8D8D8 ;/*#D8D8D8;/*#292828;*/
+}
+
+.header {
+    width: 1000px; 
+    height: 100px;
+    background:#D8D8D8;
+    margin: 0 auto;
+    text-align: center
+}
+
+.dobavit {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  position: relative;
+  margin-left: 75.5%;
+}
+
+.header h3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    /*position: absolute;
+    left: 60.6%;*/
+}
+
+.nav {
+    margin-right: 25px;
+}
+
+
+.nav ul a {
+   display: inline-block;
+   width: 7em;
+   padding: 10px;
+   text-decoration: none;
+   color: #333;
+   text-align: center;
+   font-family: 'Comfortaa', cursive;
+   font-size: 13px;
+}
+
+.nav ul{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: px;
+    margin-top: 1%;
+    margin-bottom: 1%: 
+    margin-right: 10px;
+
+    float: right;
+}
+
+.nav li {
+    display: inline;
+}
+
+valery {
+    display: inline-block;
+}
+
+.logo a {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 52px;
+    left: 17.5%;
+}
+.content{
+  margin: 0px 12.93% 38px 18.4%;
+  background-color: #D8D8D8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+}
+
+button {
+  transform: translate(-1%, -1%);
+}
+
+button {
+  background: #E1E0D2;
+  color: #ccc;
+  width: 110px;
+  height: 30px;
+  border: 1px solid #338033;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  color: #171712;
+}
+
+button:focus {
+  outline: none;;
+}
+
+button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255,255,255,.5);
+  width: 60px;
+  height: 100px;
+  left: 0;
+  top: 0;
+  opacity: .5s;
+  filter: blur(30px);
+  transform: translateX(-130px) skewX(-15deg);
+}
+
+button:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255,255,255,.5);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(-100px) scaleX(-15deg);
+}
+
+button:hover {
+  background: #338033;
+  cursor: pointer;
+}
+
+button:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: .6;
+  transition: .7s;
+}
+
+button:hover:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity:1;
+  transition: .7s;
+}
+
+.aut button {
+  transform: translate(-1%, -1%);
+}
+
+.aut button {
+  background: #E1E0D2;
+  color: #ccc;
+  width: 110px;
+  height: 30px;
+  border: 1px solid #338033;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  color: #171712;
+}
+
+.aut button:focus {
+  outline: none;;
+}
+
+.aut button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255,255,255,.5);
+  width: 60px;
+  height: 100px;
+  left: 0;
+  top: 0;
+  opacity: .5s;
+  filter: blur(30px);
+  transform: translateX(-130px) skewX(-15deg);
+}
+
+.aut button:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255,255,255,.5);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(-100px) scaleX(-15deg);
+}
+
+.aut button:hover {
+  background: #338033;
+  cursor: pointer;
+}
+
+.aut button:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: .6;
+  transition: .7s;
+}
+
+.aut button:hover:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity:1;
+  transition: .7s;
+}
+
+.text{
+  display: block;
+  color: #5fb50;
+  margin-left: 168px;
+  margin-top: 70px;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.foto{
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 3px 52px 2px 0;
+  float: left;
+}
+
+
+
+.nav2 {
+   display: flex;
+   justify-content: center;
+   margin-left: 19.5%
+}
+
+.nav2 ul a {
+   display: inline-block;
+   width: 7em;
+   padding: 10px;
+   background-color: #f4f4f4;
+   border: 1px solid #333;
+   text-decoration: none;
+   color: #333;
+   text-align: center;
+   font-family: 'Comfortaa', cursive;
+   font-size: 13px;
+}
+
+.nav2 ul{
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 1%;
+    margin-bottom: 1%: 
+    margin-right: px;
+    float: right;
+}
+
+.nav2 li {
+    display: inline;
+}
+
+
+.text2{
+  display: block;
+  color: #5fb50;
+  margin-left: 168px;
+  margin-top: 70px;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.aut  {
+  float: left;
+  margin-top: 6px;
+}
+
+.aut li {
+  margin: auto;
+
+}
+

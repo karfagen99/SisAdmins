@@ -1,0 +1,16 @@
+*{
+	background:#D8D8D8
+
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	font-family: 'Comfortaa', cursive;
+	margin-top: 5%;
+}
+
+.main p {
+
+	text-align: center;
+}
